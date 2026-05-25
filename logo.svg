@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FEIN TRADE Logo">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#7f00ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="200" height="200" rx="40" ry="40" fill="rgba(0,0,0,0.05)"/>
+  <path d="M97 32 L62 105 H96 L86 168 L134 90 H100 L110 32 Z" fill="url(#grad)" filter="url(#glow)"/>
+  <text x="50%" y="178" text-anchor="middle" font-family="Outfit, sans-serif" font-size="28" font-weight="700" fill="#ffffff">FEIN</text>
+</svg>
